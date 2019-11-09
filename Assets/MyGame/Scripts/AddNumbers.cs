@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
-{
+public class AddNumbers : MonoBehaviour {
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start () {
+        int a = 3;
+        int b = 4;
+
+        Debug.Log ("a = " + a);
+        Debug.Log ("b = " + b);
+        Debug.Log ("a + b = " + (a + b));
+
+        Debug.Log ("add numbers a = " + a + ", b = " + b + "; a + b = " + (a + b));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
